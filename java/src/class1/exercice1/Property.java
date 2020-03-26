@@ -1,5 +1,10 @@
 package class1.exercice1;
 
+/**
+ * Property
+ * 
+ * @author William Trindade<williamtrindade.contato@gmail.com>
+ */
 public class Property {
 
     private Float totalBuiltArea;
@@ -11,4 +16,5 @@ public class Property {
     public void setTotalBuiltArea(Float totalBuiltArea) {
         this.totalBuiltArea = totalBuiltArea;
     }
+    
 }
