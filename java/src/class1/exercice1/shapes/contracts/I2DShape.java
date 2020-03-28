@@ -1,5 +1,5 @@
 package class1.exercice1.shapes.contracts;
 
-public interface ShapeInterface {
+public interface I2DShape {
     public Double getArea();
 }

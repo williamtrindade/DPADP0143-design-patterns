@@ -1,8 +1,8 @@
 package class1.exercice1.shapes;
 
-import class1.exercice1.shapes.contracts.ShapeInterface;
+import class1.exercice1.shapes.contracts.I2DShape;
 
-public class Rhombus implements ShapeInterface {
+public class Rhombus implements I2DShape {
     private Double height;
     private Double length;
 
