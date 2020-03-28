@@ -8,12 +8,12 @@ public class Circle implements I2DShape {
     
     private Double angle;
 
-    Circle(Double radius) {
+    public Circle(Double radius) {
         this.radius = radius;
         this.angle = 360.0;
     }
 
-    Circle(Double radius, Double angle) {
+    public Circle(Double radius, Double angle) {
        this.radius = radius;
        this.angle = angle;
     }
