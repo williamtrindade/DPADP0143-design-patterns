@@ -20,7 +20,7 @@ public class Circle implements I2DShape {
 
     @Override
     public Double getArea() {
-        return (3.14 * (Math.pow(this.getRadius(), 2.0)) * this.getAngle()) / 360.0;
+        return (Math.PI * (Math.pow(this.getRadius(), 2.0)) * this.getAngle()) / 360.0;
     }
     
     public Double getRadius() {
