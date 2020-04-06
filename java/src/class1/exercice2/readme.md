@@ -8,15 +8,15 @@
   - Transferência entre contas.
 
 - Uma conta possui:
-  - um número.
-  - Um saldo.
-  - Um status que informa se ela é especial ou não.
-  - Um limite.
-  - Um conjunto de movimentações.
-    - Uma movimentação possui uma descrição.
-    - Um valor.
-    - E uma informação se ela é uma movimentação:
-      - De crédito.
+  - Número.
+  - Saldo.
+  - Status que informa se ela é especial ou não.
+  - Limite.
+  - Conjunto de movimentações, uma movimentação possui:
+    - Descrição.
+    - Valor.
+    - E uma informação se ela é uma movimentação de:
+      - Crédito.
       - Débito.
       - Rendimento financeiro. 
 
