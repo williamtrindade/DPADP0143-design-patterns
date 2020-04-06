@@ -1,5 +1,5 @@
-- Crie uma classe `banco` que armazene um conjunto de `contas` e:
-  - Forneça métodos que permitam que sejam feitos criações de conta
+- Crie uma classe `banco` que armazene um conjunto de `contas` e forneça métodos que permitam que sejam feitos:
+  - Criações de conta
   - Exclusão de contas.
   - Saques (uma conta corrente só pode fazer saques desde que o valor não exceda o limite de saque -limite + saldo-).
   - Depósitos.
