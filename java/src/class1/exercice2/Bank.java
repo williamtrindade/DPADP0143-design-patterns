@@ -8,8 +8,8 @@ public class Bank {
     private HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
     public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
-        if (this.getAccount(number) == null) {
-            BankAccount bankAccount = null;
+
+            BankAccount bankAccount = this.getAccount(number);
             if (type == BankAccount.Type.CHECKING_ACCOUNT) {
                 bankAccount = new CheckingAccount(number, initialBalance, type, false);
             } else if (type == BankAccount.Type.SAVINGS_ACCOUNT) {
@@ -26,12 +26,15 @@ public class Bank {
             }
             this.accounts.put(bankAccount.getId(), bankAccount);
             return true;
-        }
-        return false;
+
     }
 
-    public BankAccount getAccount(Integer number) {
-        return this.accounts.get(number);
+    public BankAccount getAccount(Integer number) throws IllegalArgumentException {
+        BankAccount bankAccount = this.accounts.get(number);
+        if (bankAccount == null) {
+            throw new IllegalArgumentException();
+        }
+        return bankAccount;
     }
 
     public void deleteAccount(Integer number) {
@@ -64,13 +67,13 @@ public class Bank {
     //     return null;
     // }
 
-    public void transferBetweenAccounts(Integer origin, Integer destiny, Double value) {
+    public void transferBetweenAccounts(Integer origin, Integer target, Double value) {
         BankAccount originBankAccount = this.getAccount(origin);
-        BankAccount destinyBankAccount = this.getAccount(destiny);
+        BankAccount targetBankAccount = this.getAccount(target);
         // Debit and Credit
         try {
             originBankAccount.addMovement(new Movement("Successfully money tranference ", value, Movement.Type.DEBIT));
-            destinyBankAccount.addMovement(new Movement("Successfully money tranference", value, Movement.Type.CREDIT));
+            targetBankAccount.addMovement(new Movement("Successfully money tranference", value, Movement.Type.CREDIT));
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,7 +1,7 @@
 package class1.exercice2.interfaces;
 
 public interface NormalAccountInterface {
-    public Double getLimit();
+    Double getLimit();
 
-    public void setLimit(Double limit);
+    void setLimit(Double limit);
 }
