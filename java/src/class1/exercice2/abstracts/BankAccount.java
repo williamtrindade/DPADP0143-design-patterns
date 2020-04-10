@@ -6,14 +6,20 @@ import class1.exercice2.Movement;
 
 public abstract class BankAccount {
     private final Integer id;
-    private Double balance;
+    protected Double balance;
     private final boolean special;
-    private List<Movement> movements = new ArrayList<Movement>();
+    private final Type type;
+    protected List<Movement> movements = new ArrayList<Movement>();
 
-    public BankAccount(final Integer id, Double initialBalance, boolean special) {
+    public BankAccount(final Integer id, Double initialBalance, Type type, boolean special) {
         this.id = id;
         this.balance = initialBalance;
+        this.type = type;
         this.special = special;
+    }
+
+    public Type getType() {
+        return type;
     }
 
     public enum Type {
@@ -37,12 +43,5 @@ public abstract class BankAccount {
         return id;
     }
 
-    public void addMoveement(Movement movement) {
-        this.movements.add(movement);
-        this.incrementBalance(movement.getValue());
-    }
-
-    private void incrementBalance(Double value) {
-        this.balance += value;
-    }
+    public abstract void addMovement(Movement movement) throws IllegalStateException;
 }

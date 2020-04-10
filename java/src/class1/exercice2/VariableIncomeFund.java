@@ -5,8 +5,8 @@ import class1.exercice2.interfaces.IncomeAccountInterface;
 
 public class VariableIncomeFund extends BankAccount implements IncomeAccountInterface {
 
-    public VariableIncomeFund(Integer id, Double initialBalance, boolean special) {
-        super(id, initialBalance, special);
+    public VariableIncomeFund(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+        super(id, initialBalance, type, special);
     }
 
     @Override
@@ -18,4 +18,22 @@ public class VariableIncomeFund extends BankAccount implements IncomeAccountInte
         return irValue;
     }
 
+    @Override
+    public void addMovement(Movement movement) throws IllegalStateException {
+        switch(movement.getType()) {
+            case CREDIT: 
+                this.balance += movement.getValue();
+                break;
+            case DEBIT:
+                this.balance -= movement.getValue();
+                break;
+            case FINANCIAL_INCOME:
+                this.balance += movement.getValue();
+                break;
+            default:
+                throw new IllegalStateException("Incorrect movement type");
+        }
+        this.movements.add(movement);
+    }
+    
 }
