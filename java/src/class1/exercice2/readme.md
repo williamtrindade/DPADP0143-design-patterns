@@ -24,6 +24,6 @@
   - Poupança.
   - Conta-corrente.
   - Fundos de Renda Fixa.
-  - Fundos de Renda Variável.
-  Dentre estes apenas os rendimentos de renda fixa e variável são tributados pelo IR, nestes casos deverá existir:
+  - Fundos de Renda Variável.  
+  Dentre estes apenas os rendimentos de `renda fixa` e `variável` são tributados pelo `IR`, nestes casos deverá existir:
     - Um método que calcula o valor do imposto devido, com base no rendimento financeiro do mês e a alíquota de 27,5%.
