@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - Test",
             "request": "launch",
+            "mainClass": "class2.exercice3.Test",
+            "projectName": "java_57fce53a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
             "mainClass": "class1.exercice1.Test",
             "projectName": "java_57fce53a"
         },
