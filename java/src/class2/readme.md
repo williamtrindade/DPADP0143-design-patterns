@@ -1,5 +1,5 @@
 ## Class 2
-## Java Collections Framework
+## Java Collections Framework:
 ![Class diagram](https://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png)
 
 - Robusta.
@@ -8,16 +8,16 @@
 ### Interface java.util.List
 - Permite objetos duplicados.
 - Mantem a ordenação.
-  - ### ArrayList
-    - Implementa com array.
-    - Mais rápida.
-    - Mais computacionalmente economica.
-    - Ideal para listas que não vão mudar de tamanho.
-  - ### LinkedList
-    - Menos computacionalmente economica.
-    - Mais lesta para percorrer.
-    - Mais rápida para inserir e remover.
-    - Ideal para listas que vão mudar de tamanho.
+    - ### ArrayList
+        - Implementa com array.
+        - Mais rápida.
+        - Mais computacionalmente economica.
+        - Ideal para listas que não vão mudar de tamanho.
+    - ### LinkedList
+        - Menos computacionalmente economica.
+        - Mais lesta para percorrer.
+        - Mais rápida para inserir e remover.
+        - Ideal para listas que vão mudar de tamanho.
 
 ### Interface java.util.Set
 - Conjuntos (Aglomerado de objetos).
@@ -66,3 +66,23 @@
 - ### hashCode()
     - usado para encontrar um elemento na HashTable, por isso toda classe já tem uma implentação de dele.
     - Leva em consideração equals().
+
+## Exceptions:
+- Toda execução de método é jogada numa stack, onde é isolada a área de memória para aquele método.
+- Quando a exceção não é tratada na aplicação, é jogada na saída padrão.
+- Toda exceção gera um stack trace, momstrando a pilha de chamadas até o erro ocorrer.  
+
+<strong style="color:green">Tratar exceptions:<strong>
+``` java
+    try {
+        // code here
+    } catch(Exception e) {
+        // tratar
+    }
+```   
+<strong style="color:green">Atirar exceptions:<strong>
+``` java
+    if (movement.getValue() > this.getLimit()) {
+        throw new IllegalStateException("Value exced the limit");
+    }
+```
