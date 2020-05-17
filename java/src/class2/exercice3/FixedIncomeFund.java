@@ -5,13 +5,13 @@ import class2.exercice3.interfaces.IncomeAccountInterface;
 
 public class FixedIncomeFund extends BankAccount implements IncomeAccountInterface {
 
-    public FixedIncomeFund(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    public FixedIncomeFund(Long id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
     @Override
     public Double getIRTax() {
-        Double irValue = 0.0;
+        double irValue = 0.0;
         for (Movement movement: super.getMovements()) {
             irValue += movement.getValue() * 0.275;
         }

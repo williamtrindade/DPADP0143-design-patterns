@@ -5,13 +5,13 @@ import java.util.List;
 import class2.exercice3.Movement;
 
 public abstract class BankAccount {
-    private final Integer id;
+    private final Long id;
     protected Double balance;
     private final boolean special;
     private final Type type;
     protected List<Movement> movements = new ArrayList<Movement>();
 
-    public BankAccount(final Integer id, Double initialBalance, Type type, boolean special) {
+    public BankAccount(final Long id, Double initialBalance, Type type, boolean special) {
         this.id = id;
         this.balance = initialBalance;
         this.type = type;
@@ -35,11 +35,10 @@ public abstract class BankAccount {
     }
 
     public List<Movement> getMovements() {
-        List<Movement> movementsCopy = new ArrayList<Movement>(this.movements);
-        return movementsCopy;
+        return new ArrayList<Movement>(this.movements);
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 

@@ -8,7 +8,7 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
     
     private Double limit;
 
-    SavingsAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    SavingsAccount(Long id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
@@ -24,7 +24,7 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
 
     @Override
     public Double getIRTax() {
-        Double irValue = 0.0;
+        double irValue = 0.0;
         for (Movement movement: super.getMovements()) {
             irValue += movement.getValue() * 0.05;
         }

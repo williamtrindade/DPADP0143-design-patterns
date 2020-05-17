@@ -1,13 +1,14 @@
 package class2.exercice3;
 
 import java.util.HashMap;
+import java.util.Map;
 import class2.exercice3.abstracts.BankAccount;
 
 public class Bank {
 
-    private HashMap<Integer, BankAccount> accounts = new HashMap<>();
+    private final Map<Long, BankAccount> accounts = new HashMap<>();
 
-    public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
+    public boolean createAccount(Long number, Double initialBalance, BankAccount.Type type) {
         BankAccount bankAccount = this.getAccount(number);
         if (bankAccount == null) {
             if (type == BankAccount.Type.CHECKING_ACCOUNT) {
@@ -30,19 +31,19 @@ public class Bank {
         return false;
     }
 
-    public HashMap<Integer, BankAccount> getAccounts() {
+    public Map<Long, BankAccount> getAccounts() {
         return this.accounts;
     }
 
-    public BankAccount getAccount(Integer number) {
+    public BankAccount getAccount(Long number) {
         return this.accounts.get(number);
     }
 
-    public void deleteAccount(Integer number) {
+    public void deleteAccount(Long number) {
         this.accounts.remove(number);
     }
 
-    public void depositInAccount(Integer number, Double value) {
+    public void depositInAccount(Long number, Double value) {
         BankAccount bankAccount = this.getAccount(number);
         try {
             bankAccount.addMovement(new Movement("Deposit", value, Movement.Type.CREDIT));
@@ -51,7 +52,7 @@ public class Bank {
         }
     }
 
-    public void withdraw(Integer number, Double value) {
+    public void withdraw(Long number, Double value) {
         BankAccount bankAccount = this.getAccount(number);
         try {
             bankAccount.addMovement(new Movement("withdraw money", value, Movement.Type.DEBIT));
@@ -68,7 +69,7 @@ public class Bank {
     //     return null;
     // }
 
-    public void transferBetweenAccounts(Integer origin, Integer target, Double value) {
+    public void transferBetweenAccounts(Long origin, Long target, Double value) {
         BankAccount originBankAccount = this.getAccount(origin);
         BankAccount targetBankAccount = this.getAccount(target);
         // Debit and Credit
