@@ -1,9 +1,8 @@
-package class2.exercice3;
+package class2.exercice4;
 
-import class2.exercice3.abstracts.BankAccount;
+import class2.exercice4.abstracts.BankAccount;
 
 public class Test {
-
     public static void main(final String[] args) {
         final Bank bradesco = new Bank();
         // Bank nubank = new Bank();
