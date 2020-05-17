@@ -5,7 +5,7 @@ import class2.exercice5.interfaces.IncomeAccountInterface;
 
 public class VariableIncomeFund extends BankAccount implements IncomeAccountInterface {
 
-    public VariableIncomeFund(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    public VariableIncomeFund(Long id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 

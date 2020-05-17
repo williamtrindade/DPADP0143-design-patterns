@@ -20,7 +20,7 @@ public class Test {
 
     }
 
-    public static void testCreateNAccounts(final Bank bank, int quantity) {
+    public static void testCreateNAccounts(final Bank bank, long quantity) {
         long i = 0;
         for (i=0; i<=quantity; i++) {
             bank.createAccount(i, 10.0, BankAccount.Type.CHECKING_ACCOUNT);

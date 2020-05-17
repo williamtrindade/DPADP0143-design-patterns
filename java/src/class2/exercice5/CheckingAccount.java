@@ -7,7 +7,7 @@ public class CheckingAccount extends BankAccount implements NormalAccountInterfa
 
     private Double limit;
 
-    CheckingAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    CheckingAccount(Long id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
