@@ -1,37 +1,37 @@
-package br.ufsm.csi.pp;
+package io.github.williamtrindade;
 
 import java.util.Map;
 
 /**
- * Interface que representa o serviço que deverá ser provido por um gerador de form html
+ * Interface que representa o serviï¿½o que deverï¿½ ser provido por um gerador de form html
  */
 public interface FormGenerator {
 
     /**
-     * Gera o código em html para um formulário do objeto recebido como parâmetro
-     * O formulário deverá vir preenchido, caso o objeto tenha valores nos parâmetros
+     * Gera o cï¿½digo em html para um formulï¿½rio do objeto recebido como parï¿½metro
+     * O formulï¿½rio deverï¿½ vir preenchido, caso o objeto tenha valores nos parï¿½metros
      *
-     * @param objeto objeto que será utilizado para gerar o form e preencher os valores, caso existam
-     * @return a string html que representa o formulário
+     * @param objeto objeto que serï¿½ utilizado para gerar o form e preencher os valores, caso existam
+     * @return a string html que representa o formulï¿½rio
      */
     String generateForm(Object objeto);
 
     /**
-     * Gera o código em html para exibição do objeto recebido como parâmetro.
-     * Poderá ser um formulário preenchido e read-only ou um HTML apenas exibindo nomes das
+     * Gera o cï¿½digo em html para exibiï¿½ï¿½o do objeto recebido como parï¿½metro.
+     * Poderï¿½ ser um formulï¿½rio preenchido e read-only ou um HTML apenas exibindo nomes das
      * propriedades e valores.
      *
-     * @param objeto objeto que será utilizado para gerar o HTML com os valores
+     * @param objeto objeto que serï¿½ utilizado para gerar o HTML com os valores
      * @return a string html que representa o documento
      */
     String generateReadOnlyView(Object objeto);
 
 
     /**
-     * Preenche um objeto com os parâmetros recebidos do formulário.
+     * Preenche um objeto com os parï¿½metros recebidos do formulï¿½rio.
      *
-     * @param parametrosRequisicao mapa dos parâmetros do formulário
-     * @param classe classe do objeto que será instanciado e preenchido
+     * @param parametrosRequisicao mapa dos parï¿½metros do formulï¿½rio
+     * @param classe classe do objeto que serï¿½ instanciado e preenchido
      * @return o objeto com as propriedades preenchidas do form.
      */
     Object populateObject(Map<String, String> parametrosRequisicao, Class classe);

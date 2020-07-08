@@ -1,11 +1,8 @@
-package br.ufsm.csi.pp.exemplo;
+package io.github.williamtrindade.exemplo;
 
-import br.ufsm.csi.pp.annotations.Field;
-import br.ufsm.csi.pp.annotations.Form;
+import io.github.williamtrindade.annotations.Field;
+import io.github.williamtrindade.annotations.Form;
 
-/**
- * Created by politecnico on 09/10/2017.
- */
 @Form(name = "exemplo", action = "/formexemplo.servlet", submitButton = "Enviar")
 public class ClasseExemplo {
 
@@ -24,7 +21,7 @@ public class ClasseExemplo {
         this.id = id;
     }
 
-    @Field(name = "codigo", size = 5, label = "Código")
+    @Field(name = "codigo", size = 5, label = "Cï¿½digo")
     public Long getCodigo() {
         return codigo;
     }

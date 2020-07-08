@@ -1,14 +1,14 @@
-package br.ufsm.csi.pp.exemplo;
+package io.github.williamtrindade.exemplo;
 
-import br.ufsm.csi.pp.FormGenerator;
+import io.github.williamtrindade.FormGenerator;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class TestCase {
 
-    private FormGenerator formGenerator;
-    private ClasseExemplo classeExemplo;
+    private final FormGenerator formGenerator;
+    private final ClasseExemplo classeExemplo;
 
     public TestCase(FormGenerator formGenerator, ClasseExemplo classeExemplo) {
         this.formGenerator = formGenerator;

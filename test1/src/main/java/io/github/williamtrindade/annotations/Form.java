@@ -1,4 +1,4 @@
-package br.ufsm.csi.pp.annotations;
+package io.github.williamtrindade.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
