@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/io/github/williamtrindade/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercices.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/Property.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/Rhombus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/contracts/I2DShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice1/shapes/contracts/I3DShape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/CheckingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/FixedIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/Movement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/VariableIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/abstracts/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/interfaces/IncomeAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/interfaces/NormalAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class2/exercice2/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/CheckingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/FixedIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/Movement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/VariableIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/abstracts/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/interfaces/IncomeAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/interfaces/NormalAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice3/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/CheckingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/FixedIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/Movement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/VariableIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/abstracts/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/interfaces/IncomeAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/interfaces/NormalAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice4/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/CheckingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/FixedIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/Movement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/SavingsAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/VariableIncomeFund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/abstracts/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/interfaces/IncomeAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/interfaces/NormalAccountInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/exercice5/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class3/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class4/exercice6/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class4/exercice6/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class4/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../php/class1/exercise1/Property.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1eNkMdq8NPMng13eKSGx84bzS2O" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.App" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.williamtrindade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="" />
+      <created>1594169391158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594169391158</updated>
+      <workItem from="1594169397074" duration="912000" />
+      <workItem from="1594170348504" duration="402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1594170193910">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1809" y="116" width="1024" height="840" key="#Project_Structure/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170193910" />
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594170390379">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170390379" />
+    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl" timestamp="1594170186327">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170186327" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594170421497">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170421497" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594170421497">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170421497" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594170421496">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170421496" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594170421497">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="290" key="GridCell.Tab.0.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170421497" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1594170311916">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170311916" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1594170311916">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170311916" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1594170311916">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170311916" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1594170311916">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170311916" />
+    <state x="1830" y="174" width="1024" height="840" key="SettingsEditor" timestamp="1594170161535">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1830" y="174" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170161535" />
+  </component>
+</project>

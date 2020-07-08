@@ -1,7 +1,8 @@
-package class2.exercice1;
+package io.github.williamtrindade.class2.exercice1;
 
-import class2.exercice1.shapes.contracts.I2DShape;
-import class2.exercice1.shapes.contracts.I3DShape;
+import io.github.williamtrindade.class2.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.class2.exercice1.shapes.contracts.I3DShape;
+
 import java.util.List;
 
 public class Room implements I3DShape, I2DShape {

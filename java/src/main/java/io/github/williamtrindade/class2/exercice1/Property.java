@@ -1,13 +1,10 @@
-package class2.exercice1;
+package io.github.williamtrindade.class2.exercice1;
 
-import class2.exercice1.shapes.contracts.I2DShape;
-import class2.exercice1.shapes.contracts.I3DShape;
+import io.github.williamtrindade.class2.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.class2.exercice1.shapes.contracts.I3DShape;
+
 import java.util.List;
 
-/**
- * Property
- * @author William Trindade<williamtrindade.contato@gmail.com>
- */
 public class Property implements I2DShape, I3DShape {
     private List<Room> rooms;
     private String identification;

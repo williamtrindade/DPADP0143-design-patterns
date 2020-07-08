@@ -1,6 +1,6 @@
-package class2.exercice1.shapes;
+package io.github.williamtrindade.class2.exercice1.shapes;
 
-import class2.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.class2.exercice1.shapes.contracts.I2DShape;
 
 public class Triangle implements I2DShape {
     private Double base;
