@@ -20,49 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="Ajustando para usar maven">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/FixedIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/FixedIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/VariableIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/VariableIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/abstracts/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/abstracts/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/IncomeAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/IncomeAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/NormalAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/NormalAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/FixedIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/FixedIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/VariableIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/VariableIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/abstracts/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/abstracts/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/interfaces/IncomeAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/interfaces/IncomeAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/interfaces/NormalAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice3/interfaces/NormalAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/FixedIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/FixedIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/VariableIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/VariableIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/abstracts/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/abstracts/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/interfaces/IncomeAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/interfaces/IncomeAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/interfaces/NormalAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice4/interfaces/NormalAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/FixedIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/FixedIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Movement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/SavingsAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/VariableIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/VariableIncomeFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/abstracts/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/abstracts/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/interfaces/IncomeAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/interfaces/IncomeAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/interfaces/NormalAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class3/exercice5/interfaces/NormalAccountInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/williamtrindade/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594169391158</updated>
       <workItem from="1594169397074" duration="912000" />
-      <workItem from="1594170348504" duration="2846000" />
+      <workItem from="1594170348504" duration="4307000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -198,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594170832772</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajustando para usar maven">
+      <created>1594173287189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594173287189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,26 +196,26 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1784" y="197" key="#com.intellij.execution.impl.EditConfigurationsDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170390379" />
-    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl" timestamp="1594170186327">
+    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl" timestamp="1594174619881">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170186327" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594173096461">
+    <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174619881" />
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594174660284">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594173096461" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594173096461">
+    <state width="1878" height="290" key="GridCell.Tab.0.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
+    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594174660284">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594173096461" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594173096461">
+    <state width="1878" height="290" key="GridCell.Tab.0.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
+    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594174660283">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594173096461" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594173096461">
+    <state width="1878" height="290" key="GridCell.Tab.0.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660283" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594174660284">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594173096461" />
+    <state width="1878" height="290" key="GridCell.Tab.0.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1594170311916">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -270,13 +236,17 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1830" y="174" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170161535" />
-    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1594170839624">
+    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1594173288854">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170839624" />
+    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594173288854" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594172148182" />
+    <state x="1742" y="244" width="1157" height="585" key="new project wizard" timestamp="1594174656863">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1742" y="244" width="1157" height="585" key="new project wizard/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174656863" />
   </component>
 </project>
