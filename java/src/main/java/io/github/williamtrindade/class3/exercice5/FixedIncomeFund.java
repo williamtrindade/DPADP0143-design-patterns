@@ -1,7 +1,7 @@
-package class3.exercice5;
+package io.github.williamtrindade.class3.exercice5;
 
-import class3.exercice5.abstracts.BankAccount;
-import class3.exercice5.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.class3.exercice5.abstracts.BankAccount;
+import io.github.williamtrindade.class3.exercice5.interfaces.IncomeAccountInterface;
 
 public class FixedIncomeFund extends BankAccount implements IncomeAccountInterface {
 

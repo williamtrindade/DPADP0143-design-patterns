@@ -1,7 +1,7 @@
-package class2.exercice2;
+package io.github.williamtrindade.class2.exercice2;
 
-import class2.exercice2.abstracts.BankAccount;
-import class2.exercice2.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
+import io.github.williamtrindade.class2.exercice2.interfaces.IncomeAccountInterface;
 
 public class FixedIncomeFund extends BankAccount implements IncomeAccountInterface {
 
@@ -11,7 +11,7 @@ public class FixedIncomeFund extends BankAccount implements IncomeAccountInterfa
 
     @Override
     public Double getIRTax() {
-        Double irValue = 0.0;
+        double irValue = 0.0;
         for (Movement movement: super.getMovements()) {
             irValue += movement.getValue() * 0.275;
         }

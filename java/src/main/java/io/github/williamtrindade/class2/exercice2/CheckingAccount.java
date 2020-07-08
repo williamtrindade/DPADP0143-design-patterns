@@ -1,7 +1,7 @@
-package class2.exercice2;
+package io.github.williamtrindade.class2.exercice2;
 
-import class2.exercice2.abstracts.BankAccount;
-import class2.exercice2.interfaces.NormalAccountInterface;
+import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
+import io.github.williamtrindade.class2.exercice2.interfaces.NormalAccountInterface;
 
 public class CheckingAccount extends BankAccount implements NormalAccountInterface {
 

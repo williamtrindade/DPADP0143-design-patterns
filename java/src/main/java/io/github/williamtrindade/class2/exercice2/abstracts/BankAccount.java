@@ -1,8 +1,9 @@
-package class2.exercice2.abstracts;
+package io.github.williamtrindade.class2.exercice2.abstracts;
+
+import io.github.williamtrindade.class2.exercice2.Movement;
 
 import java.util.ArrayList;
 import java.util.List;
-import class2.exercice2.Movement;
 
 public abstract class BankAccount {
     private final Integer id;
@@ -35,8 +36,7 @@ public abstract class BankAccount {
     }
 
     public List<Movement> getMovements() {
-        List<Movement> movementsCopy = new ArrayList<Movement>(this.movements);
-        return movementsCopy;
+        return new ArrayList<Movement>(this.movements);
     }
 
     public Integer getId() {

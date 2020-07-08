@@ -1,15 +1,15 @@
-package class3.exercice5;
+package io.github.williamtrindade.class3.exercice5;
+
+import io.github.williamtrindade.class3.exercice5.abstracts.BankAccount;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
-
-import class3.exercice5.abstracts.BankAccount;
 
 public class Bank {
 
     private final Map<Long, BankAccount> accounts = new ConcurrentHashMap<>();
 
-    public boolean createAccount(Long number, Double initialBalance, BankAccount.Type type) {
+    public void createAccount(Long number, Double initialBalance, BankAccount.Type type) {
         BankAccount bankAccount = this.getAccount(number);
         if (bankAccount == null) {
             if (type == BankAccount.Type.CHECKING_ACCOUNT) {
@@ -25,12 +25,10 @@ public class Bank {
                 assert bankAccount != null;
                 bankAccount.addMovement(new Movement("Initial deposit", initialBalance, Movement.Type.CREDIT));
             } catch (NullPointerException e) {
-                return false;
+                return;
             }
             this.accounts.put(bankAccount.getId(), bankAccount);
-            return true;
         }
-        return false;
     }
 
     public Map<Long, BankAccount> getAccounts() {

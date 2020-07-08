@@ -1,7 +1,7 @@
-package class3.exercice4;
+package io.github.williamtrindade.class3.exercice4;
 
-import class3.exercice4.abstracts.BankAccount;
-import class3.exercice4.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.class3.exercice4.abstracts.BankAccount;
+import io.github.williamtrindade.class3.exercice4.interfaces.IncomeAccountInterface;
 
 public class VariableIncomeFund extends BankAccount implements IncomeAccountInterface {
 
@@ -11,7 +11,7 @@ public class VariableIncomeFund extends BankAccount implements IncomeAccountInte
 
     @Override
     public Double getIRTax() {
-        Double irValue = 0.0;
+        double irValue = 0.0;
         for (Movement movement: super.getMovements()) {
             irValue += movement.getValue() * 0.275;
         }

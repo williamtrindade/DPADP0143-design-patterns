@@ -1,8 +1,9 @@
-package class3.exercice4.abstracts;
+package io.github.williamtrindade.class3.exercice4.abstracts;
+
+import io.github.williamtrindade.class3.exercice4.Movement;
 
 import java.util.ArrayList;
 import java.util.List;
-import class3.exercice4.Movement;
 
 public abstract class BankAccount {
     private final Integer id;

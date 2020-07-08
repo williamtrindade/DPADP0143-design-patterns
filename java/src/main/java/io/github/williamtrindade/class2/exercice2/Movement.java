@@ -1,4 +1,4 @@
-package class2.exercice2;
+package io.github.williamtrindade.class2.exercice2;
 
 public class Movement {
     private final String description;

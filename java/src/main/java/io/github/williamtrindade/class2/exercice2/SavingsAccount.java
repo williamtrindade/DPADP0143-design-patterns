@@ -1,8 +1,8 @@
-package class2.exercice2;
+package io.github.williamtrindade.class2.exercice2;
 
-import class2.exercice2.abstracts.BankAccount;
-import class2.exercice2.interfaces.IncomeAccountInterface;
-import class2.exercice2.interfaces.NormalAccountInterface;
+import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
+import io.github.williamtrindade.class2.exercice2.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.class2.exercice2.interfaces.NormalAccountInterface;
 
 public class SavingsAccount extends BankAccount implements NormalAccountInterface, IncomeAccountInterface {
     

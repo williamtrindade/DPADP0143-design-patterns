@@ -1,13 +1,14 @@
-package class3.exercice4;
+package io.github.williamtrindade.class3.exercice4;
+
+import io.github.williamtrindade.class3.exercice4.abstracts.BankAccount;
 
 import java.util.HashMap;
-import class3.exercice4.abstracts.BankAccount;
 
 public class Bank {
 
-    private HashMap<Integer, BankAccount> accounts = new HashMap<>();
+    private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
-    public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
+    public void createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
         BankAccount bankAccount = this.getAccount(number);
         if (bankAccount == null) {
             if (type == BankAccount.Type.CHECKING_ACCOUNT) {
@@ -20,14 +21,13 @@ public class Bank {
                 bankAccount = new VariableIncomeFund(number, initialBalance, type, false);
             }
             try {
+                assert bankAccount != null;
                 bankAccount.addMovement(new Movement("Initial deposit", initialBalance, Movement.Type.CREDIT));
             } catch (Exception e) {
-                return false;
+                return;
             }
             this.accounts.put(bankAccount.getId(), bankAccount);
-            return true;
         }
-        return false;
     }
 
     public HashMap<Integer, BankAccount> getAccounts() {

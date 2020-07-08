@@ -1,8 +1,8 @@
-package class3.exercice5;
+package io.github.williamtrindade.class3.exercice5;
 
-import class3.exercice5.abstracts.BankAccount;
-import class3.exercice5.interfaces.IncomeAccountInterface;
-import class3.exercice5.interfaces.NormalAccountInterface;
+import io.github.williamtrindade.class3.exercice5.abstracts.BankAccount;
+import io.github.williamtrindade.class3.exercice5.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.class3.exercice5.interfaces.NormalAccountInterface;
 
 public class SavingsAccount extends BankAccount implements NormalAccountInterface, IncomeAccountInterface {
     
@@ -24,7 +24,7 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
 
     @Override
     public Double getIRTax() {
-        Double irValue = 0.0;
+        double irValue = 0.0;
         for (Movement movement: super.getMovements()) {
             irValue += movement.getValue() * 0.05;
         }

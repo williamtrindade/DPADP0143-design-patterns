@@ -1,11 +1,12 @@
-package class2.exercice2;
+package io.github.williamtrindade.class2.exercice2;
+
+import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
 
 import java.util.HashMap;
-import class2.exercice2.abstracts.BankAccount;
 
 public class Bank {
 
-    private HashMap<Integer, BankAccount> accounts = new HashMap<>();
+    private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
     public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
 

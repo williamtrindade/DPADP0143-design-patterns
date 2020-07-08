@@ -1,4 +1,4 @@
-package class4.exercice6;
+package io.github.williamtrindade.class4.exercice6;
 
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;

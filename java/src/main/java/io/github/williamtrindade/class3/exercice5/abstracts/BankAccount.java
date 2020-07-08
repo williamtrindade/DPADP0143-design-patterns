@@ -1,8 +1,9 @@
-package class3.exercice5.abstracts;
+package io.github.williamtrindade.class3.exercice5.abstracts;
+
+import io.github.williamtrindade.class3.exercice5.Movement;
 
 import java.util.ArrayList;
 import java.util.List;
-import class3.exercice5.Movement;
 
 public abstract class BankAccount {
     private final Long id;

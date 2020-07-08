@@ -1,4 +1,4 @@
-package class3.exercice4.interfaces;
+package io.github.williamtrindade.class3.exercice4.interfaces;
 
 public interface NormalAccountInterface {
     Double getLimit();
