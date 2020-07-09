@@ -9,7 +9,7 @@
 ___
 - ### Classe Class
     > Possibilita acessar dados de uma classe em runtime.
-    - #### Formas de pegar dados de uma classe:
+    - #### Formas de pegar a Class:
         - ##### Pela instância do objeto
         ```java
         User user = new User();
@@ -19,13 +19,13 @@ ___
         ```java
         Class<User> class = User.class;
         ```
-        - ##### Pelo Class.forName (pelo nome)
+        - ##### Pelo Class.forName (pelo nome da classe)
         ```java
         Class class = Class.forName("User");
         ```
         > Para chamar a classe ela deve estar carregada no sistema ( class loader )
 
-    - #### Carregar uma classe no class loader em runtime
+    - #### Carregar uma classe no classloader em runtime via jar
     ```java
     URLClassLoader child = new URLClassLoader(myJar.toURL(), this.getClass().getClassLoader());
     Class classToLoad = Class.forName("com.MyClass", true, child);
@@ -33,6 +33,34 @@ ___
     Object instance = classToLoad.newInstance();
     Object result = method.invoke(instance);
     ```
-  
-  
+___
+- ### Formas de usar reflexão
+    - #### Pegar campos de uma Class
+    ```java
+    Clas class = User.class;
+    for(Field field: class.getDeclaredFields()) {
+      field.get(instance); // tenho que passar a instância
+      field.set(instance, null); 
+    }   
+    ```
+    - #### Pegar métodos de uma Class
+    ```java
+    Class class = User.class;
+    for(Method method: class.getDeclaredMethods()) {
+      method.invoke("p1", "p2");
+    }   
+    ```
+    - #### Pegar campo de uma Class pelo nome
+    ```java
+    Class class = User.class;
+    Field field = class.getDeclaredField("fieldName");
+    field.set(instance, "value");
+    ```
+    - #### Pegar método de uma Class pelo nome
+    ```java
+    Class class = User.class;
+    Method method = class.getDeclaredMethod("methodName", String.class);
+    method.invoke(instance, "param");
+    ```
+       
   
