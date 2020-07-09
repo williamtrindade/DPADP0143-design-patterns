@@ -1,6 +1,7 @@
 package io.github.williamtrindade.class2.exercice2;
 
 import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
+import io.github.williamtrindade.class4.exercice6.Example;
 
 import java.util.HashMap;
 
@@ -8,26 +9,25 @@ public class Bank {
 
     private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
+    // @Example(name = "Joao")
     public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
-
-            BankAccount bankAccount = this.getAccount(number);
-            if (type == BankAccount.Type.CHECKING_ACCOUNT) {
-                bankAccount = new CheckingAccount(number, initialBalance, type, false);
-            } else if (type == BankAccount.Type.SAVINGS_ACCOUNT) {
-                bankAccount = new SavingsAccount(number, initialBalance, type, false);
-            } else if (type == BankAccount.Type.FIXED_INCOME_FUND) {
-                bankAccount = new FixedIncomeFund(number, initialBalance, type, false);
-            } else if (type == BankAccount.Type.VARIABLE_INCOME_FUND) {
-                bankAccount = new VariableIncomeFund(number, initialBalance, type, false);
-            }
-            try {
-                bankAccount.addMovement(new Movement("Initial deposit", initialBalance, Movement.Type.CREDIT));
-            } catch (Exception e) {
-                return false;
-            }
-            this.accounts.put(bankAccount.getId(), bankAccount);
-            return true;
-
+        BankAccount bankAccount = this.getAccount(number);
+        if (type == BankAccount.Type.CHECKING_ACCOUNT) {
+            bankAccount = new CheckingAccount(number, initialBalance, type, false);
+        } else if (type == BankAccount.Type.SAVINGS_ACCOUNT) {
+            bankAccount = new SavingsAccount(number, initialBalance, type, false);
+        } else if (type == BankAccount.Type.FIXED_INCOME_FUND) {
+            bankAccount = new FixedIncomeFund(number, initialBalance, type, false);
+        } else if (type == BankAccount.Type.VARIABLE_INCOME_FUND) {
+            bankAccount = new VariableIncomeFund(number, initialBalance, type, false);
+        }
+        try {
+            bankAccount.addMovement(new Movement("Initial deposit", initialBalance, Movement.Type.CREDIT));
+        } catch (Exception e) {
+            return false;
+        }
+        this.accounts.put(bankAccount.getId(), bankAccount);
+        return true;
     }
 
     public BankAccount getAccount(Integer number) throws IllegalArgumentException {
@@ -79,5 +79,4 @@ public class Bank {
             e.printStackTrace();
         }
     }
-
 }

@@ -20,13 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="Reflexion studies">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/williamtrindade/class2/exercice2/Bank.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/williamtrindade/class2/exercice2/Bank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/williamtrindade/class4/exercice6/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/williamtrindade/class4/exercice6/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -53,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.App" />
       <module name="java" />
@@ -86,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.github.williamtrindade.class3.exercice5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class4.exercice6.Test" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.williamtrindade.class4.exercice6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +155,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (1)" />
@@ -150,7 +175,7 @@
       <updated>1594169391158</updated>
       <workItem from="1594169397074" duration="912000" />
       <workItem from="1594170348504" duration="4307000" />
-      <workItem from="1594255089880" duration="3074000" />
+      <workItem from="1594255089880" duration="6572000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -187,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594256730316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Reflexion studies">
+      <created>1594258221867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594258221867</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,22 +256,22 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174619881" />
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1594174660284">
+    <state width="1878" height="219" key="GridCell.Tab.0.bottom" timestamp="1594261490151">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1594174660284">
+    <state width="1878" height="219" key="GridCell.Tab.0.bottom/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594261490151" />
+    <state width="1878" height="219" key="GridCell.Tab.0.center" timestamp="1594261490150">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1594174660283">
+    <state width="1878" height="219" key="GridCell.Tab.0.center/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594261490150" />
+    <state width="1878" height="219" key="GridCell.Tab.0.left" timestamp="1594261490150">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660283" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1594174660284">
+    <state width="1878" height="219" key="GridCell.Tab.0.left/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594261490150" />
+    <state width="1878" height="219" key="GridCell.Tab.0.right" timestamp="1594261490150">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594174660284" />
+    <state width="1878" height="219" key="GridCell.Tab.0.right/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594261490150" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1594170311916">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -260,10 +292,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1830" y="174" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594170161535" />
-    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1594256732264">
+    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1594258223521">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594256732264" />
+    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594258223521" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
