@@ -104,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class4.exercice6.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class3.exercice3.Test" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.williamtrindade.class4.exercice6.*" />
+          <option name="PATTERN" value="io.github.williamtrindade.class3.exercice3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +118,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class3.exercice3.Test" />
+      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class4.Test" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.williamtrindade.class3.exercice3.*" />
+          <option name="PATTERN" value="io.github.williamtrindade.class4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

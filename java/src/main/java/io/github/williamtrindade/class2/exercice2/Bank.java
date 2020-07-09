@@ -1,7 +1,6 @@
 package io.github.williamtrindade.class2.exercice2;
 
 import io.github.williamtrindade.class2.exercice2.abstracts.BankAccount;
-import io.github.williamtrindade.class4.exercice6.Example;
 
 import java.util.HashMap;
 

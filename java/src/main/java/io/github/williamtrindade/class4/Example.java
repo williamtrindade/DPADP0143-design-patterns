@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class4.exercice6;
+package io.github.williamtrindade.class4;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
