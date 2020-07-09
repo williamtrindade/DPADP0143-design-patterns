@@ -6,6 +6,7 @@
     - Instanciar classe em runtime.
     - Chamar métodos em runtime.
     - Descobrir se o código tem @annotations.
+___
 - ### Classe Class
     > Possibilita acessar dados de uma classe em runtime.
     - #### Formas de pegar dados de uma classe:
@@ -22,3 +23,16 @@
         ```java
         Class class = Class.forName("User");
         ```
+        > Para chamar a classe ela deve estar carregada no sistema ( class loader )
+
+    - #### Carregar uma classe no class loader em runtime
+    ```java
+    URLClassLoader child = new URLClassLoader(myJar.toURL(), this.getClass().getClassLoader());
+    Class classToLoad = Class.forName("com.MyClass", true, child);
+    Method method = classToLoad.getDeclaredMethod("myMethod");
+    Object instance = classToLoad.newInstance();
+    Object result = method.invoke(instance);
+    ```
+  
+  
+  
