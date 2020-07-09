@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="Ajustando para usar maven">
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -149,6 +150,7 @@
       <updated>1594169391158</updated>
       <workItem from="1594169397074" duration="912000" />
       <workItem from="1594170348504" duration="4307000" />
+      <workItem from="1594255089880" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
