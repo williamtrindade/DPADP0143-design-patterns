@@ -2,7 +2,16 @@
   <artifact type="jar" name="java:jar">
     <output-path>$USER_HOME$/Downloads</output-path>
     <root id="archive" name="java.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/abstracts/BankAccount.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/IncomeAccountInterface.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/interfaces/NormalAccountInterface.java" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Bank.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/CheckingAccount.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/FixedIncomeFund.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/Movement.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/readme.md" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/SavingsAccount.java" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class2/exercice2/VariableIncomeFund.java" />
     </root>
   </artifact>
 </component>
