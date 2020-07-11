@@ -24,13 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="Exercice 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice7/Json.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice7/JsonFramework.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice7/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/java.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/class4/exercice6/java.jar" afterDir="false" />
-    </list>
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="Exercice 6/7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +193,7 @@
       <workItem from="1594170348504" duration="4307000" />
       <workItem from="1594255089880" duration="6572000" />
       <workItem from="1594341108889" duration="13692000" />
-      <workItem from="1594437592818" duration="3599000" />
+      <workItem from="1594437592818" duration="3902000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -257,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594350317367</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercice 6/7">
+      <created>1594441485003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594441485003</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +282,8 @@
     <MESSAGE value="Reflexion studies" />
     <MESSAGE value="Load file and show classes" />
     <MESSAGE value="Exercice 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercice 6" />
+    <MESSAGE value="Exercice 6/7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercice 6/7" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1594341663225">
