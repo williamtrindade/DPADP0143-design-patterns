@@ -20,7 +20,7 @@ public interface Model {
 }
 ```
 
-### Abstract parent class
+#### Abstract parent class
 > É como uma `interface` provem um serviço com implementação comum entre classes.
 ```java
 abstract class Animal {
@@ -31,7 +31,7 @@ abstract class Animal {
 }
 ```
 
-### Private methods
+#### Private methods
 > Serve para o encapsulamento de funcionalidade de uma classe, que apenas servem para o provedor do serviço.
 ```java
 public class User {
@@ -40,7 +40,7 @@ public class User {
     }
 }
 ```
-### Accessor Methods
+#### Accessor Methods
 > Permite acessar o estado de um objeto usando métodos específicos.
 ```java
 public class User {
@@ -54,7 +54,7 @@ public class User {
 }
 ```
 
-### Constant data manager
+#### Constant data manager
 > Permite centralizar dados constantes.
 ```java
 public final class ConstantDataManager {
@@ -69,7 +69,7 @@ public final class ConstantDataManager {
 }
 ```
 
-### Immutable Object
+#### Immutable Object
 > Serve para garantir que um estado não pode ser alterado.
 ```java
 
