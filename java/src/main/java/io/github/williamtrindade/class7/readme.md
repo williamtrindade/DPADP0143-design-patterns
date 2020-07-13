@@ -8,3 +8,6 @@
 https://refactoring.guru/design-patterns/factory-method
 
 ![](https://refactoring.guru/images/patterns/diagrams/factory-method/structure.png)
+___
+### Singleton
+> Define que só pode haver um objeto instanciado no ciclo de vida da aplicação.
