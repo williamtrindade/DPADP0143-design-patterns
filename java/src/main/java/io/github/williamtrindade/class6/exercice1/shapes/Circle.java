@@ -1,6 +1,6 @@
-package io.github.williamtrindade.class6.exercice1.exercice1.shapes;
+package io.github.williamtrindade.class6.exercice1.shapes;
 
-import io.github.williamtrindade.class6.exercice1.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.class6.exercice1.shapes.contracts.I2DShape;
 
 public class Circle implements I2DShape {
 
@@ -20,7 +20,16 @@ public class Circle implements I2DShape {
 
     @Override
     public Double getArea() {
-        return (Math.PI * (Math.pow(this.getRadius(), 2.0)) * this.getAngle()) / 360.0;
+        return (this.getPI() * (Math.pow(this.getRadius(), 2.0)) * this.getAngle()) / 360.0;
+    }
+
+    /**
+     * Utilização de Private methods
+     * @return Double
+     */
+    private Double getPI() {
+        // Utilização de Constant data manager no PI
+        return Math.PI;
     }
     
     public Double getRadius() {
