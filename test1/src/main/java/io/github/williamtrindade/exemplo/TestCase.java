@@ -1,6 +1,7 @@
 package io.github.williamtrindade.exemplo;
 
 import io.github.williamtrindade.FormGenerator;
+import io.github.williamtrindade.Generator;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +17,7 @@ public class TestCase {
     }
 
     public static void main(String[] args) {
-        FormGenerator formGenerator = null; //incluir o seu form aqui
+        FormGenerator formGenerator = Generator.GENERATOR; //incluir o seu form aqui
         ClasseExemplo classeExemplo = new ClasseExemplo();
         classeExemplo.setAtivo(true);
         classeExemplo.setId((long) 111);

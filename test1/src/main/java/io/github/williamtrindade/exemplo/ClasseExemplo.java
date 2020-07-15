@@ -21,7 +21,7 @@ public class ClasseExemplo {
         this.id = id;
     }
 
-    @Field(name = "codigo", size = 5, label = "C�digo")
+    @Field(name = "codigo", size = 5, label = "Codigo")
     public Long getCodigo() {
         return codigo;
     }
