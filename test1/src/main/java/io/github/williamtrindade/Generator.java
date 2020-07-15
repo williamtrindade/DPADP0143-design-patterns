@@ -1,12 +1,17 @@
 package io.github.williamtrindade;
 
+import io.github.williamtrindade.services.html.ContentService;
+import io.github.williamtrindade.services.html.FormService;
+
 import java.util.Map;
 
 public enum Generator implements FormGenerator {
     GENERATOR;
+
     @Override
     public String generateForm(Object object) {
-        return null;
+        ContentService contentService = new ContentService(object);
+        return contentService.generateHTML(false);
     }
 
     @Override
