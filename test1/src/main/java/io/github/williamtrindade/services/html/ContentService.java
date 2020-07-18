@@ -2,6 +2,9 @@ package io.github.williamtrindade.services.html;
 
 import io.github.williamtrindade.annotations.Form;
 
+/**
+ * @author William Trindade<williamtrindade777@gmail.com>
+ */
 public class ContentService extends AbstractTags {
     private Object object;
 

@@ -5,6 +5,9 @@ import io.github.williamtrindade.annotations.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/**
+ * @author William Trindade<williamtrindade777@gmail.com>
+ */
 public class FormService extends AbstractTags{
     private Method[] methods;
     private Object object;
@@ -60,6 +63,7 @@ public class FormService extends AbstractTags{
                            this.generateBoolField(invoked, contentHtml, readOnly, name, annotationLabel);
                         } else {
                             if (fieldType == Field.FieldType.HIDDEN && !readOnly) {
+                               // Is generated only if is not a read only field
                                this.generateHiddenField(invoked, contentHtml, name);
                             } else if (fieldType == Field.FieldType.TEXTAREA) {
                                this.generateTextAreaField(invoked, contentHtml, readOnly, name, annotationLabel);

@@ -1,5 +1,8 @@
 package io.github.williamtrindade.services.html;
 
+/**
+ * @author William Trindade<williamtrindade777@gmail.com>
+ */
 public class AbstractTags {
     protected String openDiv() {
         return "\t<div>\n";

@@ -34,6 +34,6 @@ public interface FormGenerator {
      * @param ObjClass classe do objeto que será instanciado e preenchido
      * @return o objeto com as propriedades preenchidas do form.
      */
-    Object populateObject(Map<String, String> requestParams, Class ObjClass);
+    Object populateObject(Map<String, String> requestParams, Class<?> objClass);
 
 }
