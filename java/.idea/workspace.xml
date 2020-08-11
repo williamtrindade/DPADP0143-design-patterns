@@ -27,8 +27,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="class 7">
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class6/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +157,7 @@
       <workItem from="1594687338860" duration="970000" />
       <workItem from="1594759522035" duration="166000" />
       <workItem from="1597100480900" duration="1526000" />
+      <workItem from="1597108981899" duration="761000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -261,7 +264,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594603703933</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Moving to Unit 1 pack.">
+      <created>1597109073180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1597109073180</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Moving to Unit 2 pack.">
+      <created>1597109247100</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1597109247100</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +306,9 @@
     <MESSAGE value="Exercice 8 class 5" />
     <MESSAGE value="class 6" />
     <MESSAGE value="class 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 7" />
+    <MESSAGE value="Moving to Unit 1 pack." />
+    <MESSAGE value="Moving to Unit 2 pack." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving to Unit 2 pack." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1597100363381">
@@ -313,10 +332,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2074" y="387" width="525" height="409" key="#com.intellij.ide.util.TreeClassChooserDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594343469997" />
-    <state x="1841" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597099474833">
+    <state x="1841" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1597109219797">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1841" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597099474833" />
+    <state x="1841" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597109219797" />
     <state x="1841" y="466" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594601457614" />
     <state x="2109" y="423" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1597099492000">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -326,10 +345,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2116" y="210" width="398" height="648" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594351034047" />
-    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2" timestamp="1597099367054">
+    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2" timestamp="1597109246519">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597099367054" />
+    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597109246519" />
     <state x="2104" y="294" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597107733926">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
@@ -375,9 +394,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1521" y="78" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594350005447" />
-    <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1594603705918">
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597109249845">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597109249845" />
     <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594603705918" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />

@@ -1,7 +1,7 @@
 ## Padrões de projeto
 ## Padrões criacionais
 > Tratam da criação de objetos.
-
+___
 ### Factory Method
 > Dentre uma hierarquia de classes ajuda a escolher qual classe a classe cliente deve utilizar.
 

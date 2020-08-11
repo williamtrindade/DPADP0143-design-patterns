@@ -72,5 +72,21 @@ public final class ConstantDataManager {
 #### Immutable Object
 > Serve para garantir que um estado não pode ser alterado.
 ```java
+class Money {
+    private final double amount;
+    private final Currency currency;
 
+    public Money(double amount, Currency currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+ 
+    public Currency getCurrency() {
+        return currency;
+    }
+ 
+    public double getAmount() {
+        return amount;
+    }
+}
 ```
