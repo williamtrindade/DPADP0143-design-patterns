@@ -1,6 +1,6 @@
-package io.github.williamtrindade.class6.exercice1.shapes;
+package io.github.williamtrindade.unity2.class6.exercice1.shapes;
 
-import io.github.williamtrindade.class6.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.unity2.class6.exercice1.shapes.contracts.I2DShape;
 
 public class Rectangle implements I2DShape {
     private Double base;

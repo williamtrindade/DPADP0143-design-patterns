@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class6.exercice1.shapes.contracts;
+package io.github.williamtrindade.unity2.class6.exercice1.shapes.contracts;
 
 /**
  * Aplicação do padrão interface
