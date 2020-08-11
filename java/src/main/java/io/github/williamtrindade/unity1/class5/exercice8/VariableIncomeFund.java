@@ -1,11 +1,11 @@
-package io.github.williamtrindade.class3.exercice3;
+package io.github.williamtrindade.unity1.class5.exercice8;
 
-import io.github.williamtrindade.class3.exercice3.abstracts.BankAccount;
-import io.github.williamtrindade.class3.exercice3.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.unity1.class5.exercice8.abstracts.BankAccount;
+import io.github.williamtrindade.unity1.class5.exercice8.interfaces.IncomeAccountInterface;
 
-public class FixedIncomeFund extends BankAccount implements IncomeAccountInterface {
+public class VariableIncomeFund extends BankAccount implements IncomeAccountInterface {
 
-    public FixedIncomeFund(Long id, Double initialBalance, BankAccount.Type type, boolean special) {
+    public VariableIncomeFund(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
@@ -21,14 +21,12 @@ public class FixedIncomeFund extends BankAccount implements IncomeAccountInterfa
     @Override
     public void addMovement(Movement movement) throws IllegalStateException {
         switch(movement.getType()) {
-            case CREDIT: 
+            case CREDIT:
+            case FINANCIAL_INCOME:
                 this.balance += movement.getValue();
                 break;
             case DEBIT:
                 this.balance -= movement.getValue();
-                break;
-            case FINANCIAL_INCOME:
-                this.balance += movement.getValue();
                 break;
             default:
                 throw new IllegalStateException("Incorrect movement type");
