@@ -29,5 +29,14 @@ ___
 > Facilita o reaproveitamento de instâncias de objetos, ao invez de criar e destruir objetos 
 podemos usar o pool.
 
+https://sourcemaking.com/design_patterns/object_pool
+
 ![](https://sourcemaking.com/files/v2/content/patterns/Object_pool1.png)
 ___
+
+### Abstract Factory
+> Fornece uma interface para construir uma familia de objetos.
+
+https://refactoring.guru/design-patterns/abstract-factory
+
+![](https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png)
