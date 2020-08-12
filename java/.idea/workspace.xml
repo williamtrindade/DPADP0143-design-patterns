@@ -27,8 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="class 7 / Abstract Factory">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="class 7 / Prototype">
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +154,7 @@
       <workItem from="1594759522035" duration="166000" />
       <workItem from="1597100480900" duration="1526000" />
       <workItem from="1597108981899" duration="2039000" />
-      <workItem from="1597180345520" duration="4782000" />
+      <workItem from="1597180345520" duration="5108000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -297,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597198409508</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="class 7 / Prototype">
+      <created>1597199219421</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1597199219421</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +334,8 @@
     <MESSAGE value="class 6" />
     <MESSAGE value="class 7" />
     <MESSAGE value="class 7 / Abstract Factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Abstract Factory" />
+    <MESSAGE value="class 7 / Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Prototype" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1597100363381">
@@ -414,10 +421,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1521" y="78" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594350005447" />
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597198411213">
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597199220742">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597198411213" />
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597199220742" />
     <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594603705918" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />

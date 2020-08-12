@@ -47,8 +47,9 @@ ___
 > Criar um objeto antecipadamente e designar ele como objeto protótipo. E criar outros objetos
 simplesmente fazendo uma cópia desse objeto protótipo fazendo as modificações necessárias.
 
-- Basic implementation  
+- ***Basic implementation***  
 ![](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)  
-- Prototype registry implementation  
+- ***Prototype registry implementation***    
 ![](https://refactoring.guru/images/patterns/diagrams/prototype/structure-prototype-cache.png)  
 ___
+
