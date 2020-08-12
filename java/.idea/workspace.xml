@@ -27,14 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/exercice2/a/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/exercice2/b/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/exercice2/c/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/exercice2/d/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/exercice2/e/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +68,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -162,7 +155,7 @@
       <workItem from="1597100480900" duration="1526000" />
       <workItem from="1597108981899" duration="2039000" />
       <workItem from="1597180345520" duration="6790000" />
-      <workItem from="1597201047114" duration="1249000" />
+      <workItem from="1597201047114" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -346,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597201593070</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="class 7 / Exercicies description">
+      <created>1597202313600</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1597202313600</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +380,8 @@
     <MESSAGE value="class 7 / Prototype" />
     <MESSAGE value="class 7 / Builder" />
     <MESSAGE value="class 7 / Exercicies structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Exercicies structure" />
+    <MESSAGE value="class 7 / Exercicies description" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Exercicies description" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1597100363381">
@@ -417,14 +418,14 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="2116" y="210" width="398" height="648" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594351034047" />
-    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2" timestamp="1597201592288">
+    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2" timestamp="1597202313282">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597201592288" />
-    <state x="2104" y="294" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597107733926">
+    <state x="1825" y="111" width="991" height="850" key="CommitChangelistDialog2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597202313282" />
+    <state x="2104" y="294" width="424" height="478" key="FileChooserDialogImpl" timestamp="1597202732018">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="2104" y="294" width="424" height="478" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597107733926" />
+    <state x="2104" y="294" width="424" height="478" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597202732018" />
     <state x="2104" y="294" width="424" height="479" key="FileChooserDialogImpl/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594759685838" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1597108703024">
       <screen x="1366" y="0" width="1920" height="1080" />
@@ -466,10 +467,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1521" y="78" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594350005447" />
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597201595064">
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597202315321">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597201595064" />
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597202315321" />
     <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594603705918" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />
