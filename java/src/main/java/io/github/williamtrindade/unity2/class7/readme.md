@@ -56,7 +56,7 @@ https://refactoring.guru/design-patterns/prototype
 ___
 
 ### Builder
-> Qunado contruir uma classe é um processo complexo. Podemos aplicar o builder.  
+> Qunado construir uma classe é um processo complexo. Podemos aplicar o builder.  
 Ele separa o proceso de contrução de objeto da sua representação.
 
 https://refactoring.guru/design-patterns/builder
