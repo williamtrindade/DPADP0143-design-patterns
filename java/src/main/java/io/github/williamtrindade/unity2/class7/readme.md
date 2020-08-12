@@ -47,6 +47,8 @@ ___
 > Criar um objeto antecipadamente e designar ele como objeto protótipo. E criar outros objetos
 simplesmente fazendo uma cópia desse objeto protótipo fazendo as modificações necessárias.
 
+https://refactoring.guru/design-patterns/prototype
+
 - ***Basic implementation***  
 ![](https://refactoring.guru/images/patterns/diagrams/prototype/structure.png)  
 - ***Prototype registry implementation***    
@@ -56,6 +58,8 @@ ___
 ### Builder
 > Qunado contruir uma classe é um processo complexo. Podemos aplicar o builder.  
 Ele separa o proceso de contrução de objeto da sua representação.
+
+https://refactoring.guru/design-patterns/builder
 
 ![](https://refactoring.guru/images/patterns/diagrams/builder/structure.png)
 ___
