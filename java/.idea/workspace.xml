@@ -27,8 +27,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="class 7 / Prototype">
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/williamtrindade/unity2/class7/readme.md" afterDir="false" />
+    <list default="true" id="8e5beb67-38af-46d3-9516-cab325fc0326" name="Default Changelist" comment="class 7 / Builder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,13 +85,28 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class4.Test" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.williamtrindade.class4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -119,19 +134,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.williamtrindade.class4.Test" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.github.williamtrindade.class4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -154,7 +156,8 @@
       <workItem from="1594759522035" duration="166000" />
       <workItem from="1597100480900" duration="1526000" />
       <workItem from="1597108981899" duration="2039000" />
-      <workItem from="1597180345520" duration="5427000" />
+      <workItem from="1597180345520" duration="6790000" />
+      <workItem from="1597201047114" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="Ajustando para usar maven">
       <created>1594170832772</created>
@@ -310,7 +313,28 @@
       <option name="project" value="LOCAL" />
       <updated>1597199369305</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="class 7 / Builder">
+      <created>1597199815057</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1597199815057</updated>
+    </task>
+    <task id="LOCAL-00024" summary="class 7 / Builder">
+      <created>1597199874820</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597199874820</updated>
+    </task>
+    <task id="LOCAL-00025" summary="class 7 / Builder">
+      <created>1597199908368</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1597199908368</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +366,8 @@
     <MESSAGE value="class 7" />
     <MESSAGE value="class 7 / Abstract Factory" />
     <MESSAGE value="class 7 / Prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Prototype" />
+    <MESSAGE value="class 7 / Builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="class 7 / Builder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1809" y="116" width="1024" height="840" key="#Project_Structure" timestamp="1597100363381">
@@ -428,10 +453,10 @@
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
     <state x="1521" y="78" width="1024" height="840" key="SettingsEditor/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594350005447" />
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597199370816">
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597199909764">
       <screen x="1366" y="0" width="1920" height="1080" />
     </state>
-    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597199370816" />
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597199909764" />
     <state x="1921" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/30.0.1336.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1594603705918" />
     <state x="2127" y="320" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1594172148182">
       <screen x="1366" y="0" width="1920" height="1080" />
