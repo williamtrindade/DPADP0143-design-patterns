@@ -53,3 +53,9 @@ simplesmente fazendo uma cópia desse objeto protótipo fazendo as modificaçõe
 ![](https://refactoring.guru/images/patterns/diagrams/prototype/structure-prototype-cache.png)  
 ___
 
+### Builder
+> Qunado contruir uma classe é um processo complexo. Podemos aplicar o builder.  
+Ele separa o proceso de contrução de objeto da sua representação.
+
+![](https://refactoring.guru/images/patterns/diagrams/builder/structure.png)
+___
