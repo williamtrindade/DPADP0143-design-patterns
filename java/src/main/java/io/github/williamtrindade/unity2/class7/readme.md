@@ -1,4 +1,3 @@
-## Padrões de projeto
 ## Padrões criacionais
 > Tratam da criação de objetos.
 ___
