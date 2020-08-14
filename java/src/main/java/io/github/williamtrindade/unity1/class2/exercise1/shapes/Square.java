@@ -1,6 +1,6 @@
-package io.github.williamtrindade.unity1.class2.exercice1.shapes;
+package io.github.williamtrindade.unity1.class2.exercise1.shapes;
 
-import io.github.williamtrindade.unity1.class2.exercice1.shapes.contracts.I2DShape;
+import io.github.williamtrindade.unity1.class2.exercise1.shapes.contracts.I2DShape;
 
 public class Square implements I2DShape {
     private Double side;
