@@ -1,15 +1,14 @@
-package io.github.williamtrindade.class2.exercice1;
-
-import io.github.williamtrindade.class2.exercice1.shapes.Circle;
-import io.github.williamtrindade.class2.exercice1.shapes.Square;
-import io.github.williamtrindade.class2.exercice1.shapes.contracts.I2DShape;
+package io.github.williamtrindade.unity1.class2.exercice1;
+import io.github.williamtrindade.unity1.class2.exercice1.shapes.Circle;
+import io.github.williamtrindade.unity1.class2.exercice1.shapes.Square;
+import io.github.williamtrindade.unity1.class2.exercice1.shapes.contracts.I2DShape;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Test {
     public static void main(String[] args) {
-        I2DShape circle = new Circle(10.0);
+        I2DShape circle =  new Circle(10.0);
         I2DShape square = new Square(2.0);
         List<I2DShape> shapes = new ArrayList<>();
         shapes.add(circle);

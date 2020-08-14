@@ -1,7 +1,7 @@
-package io.github.williamtrindade.class3.exercice4;
+package io.github.williamtrindade.unity1.class3.exercice4;
 
-import io.github.williamtrindade.class3.exercice4.abstracts.BankAccount;
-import io.github.williamtrindade.class3.exercice4.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.unity1.class3.exercice4.abstracts.BankAccount;
+import io.github.williamtrindade.unity1.class3.exercice4.interfaces.IncomeAccountInterface;
 
 public class VariableIncomeFund extends BankAccount implements IncomeAccountInterface {
 

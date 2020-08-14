@@ -1,8 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="488263e8-dd6f-4f93-93f6-c82faa3f9ed9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity2/class8/exercice3/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity2/class8/exercice3/readme.md" afterDir="false" />
+    <list default="true" id="488263e8-dd6f-4f93-93f6-c82faa3f9ed9" name="Default Changelist" comment="class 9">
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity2/class9/exercice4/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity2/class9/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csi-design-patterns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csi-design-patterns.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/artifacts/java_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/dictionaries/william.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/CheckingAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/FixedIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/FixedIncomeFund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/Movement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/SavingsAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/VariableIncomeFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/VariableIncomeFund.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/abstracts/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/abstracts/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/interfaces/IncomeAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/interfaces/IncomeAccountInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/interfaces/NormalAccountInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/interfaces/NormalAccountInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercice2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/main/java/io/github/williamtrindade/unity1/class2/exercise2/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/Property$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/Rhombus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/contracts/I2DShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice1/shapes/contracts/I3DShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/CheckingAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/FixedIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/FixedIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/Movement$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/Movement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/SavingsAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/VariableIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/VariableIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/abstracts/BankAccount$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/abstracts/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/interfaces/IncomeAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class2/exercice2/interfaces/NormalAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/CheckingAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/FixedIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/FixedIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/Movement$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/Movement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/SavingsAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/VariableIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/VariableIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/abstracts/BankAccount$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/abstracts/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/interfaces/IncomeAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice3/interfaces/NormalAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/CheckingAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/FixedIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/FixedIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/Movement$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/Movement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/SavingsAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/VariableIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/VariableIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/abstracts/BankAccount$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/abstracts/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/interfaces/IncomeAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice4/interfaces/NormalAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/CheckingAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/FixedIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/FixedIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/Movement$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/Movement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/SavingsAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/Test$TesteBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/VariableIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/VariableIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/abstracts/BankAccount$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/abstracts/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/interfaces/IncomeAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class3/exercice5/interfaces/NormalAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/Example.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice6/ClassLoaderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice6/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice6/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice7/Json.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice7/JsonFramework.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice7/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice7/User$Owner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class4/exercice7/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/Bank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/CheckingAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/CheckingAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/FixedIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/FixedIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/Movement$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/Movement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/SavingsAccount$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/SavingsAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/VariableIncomeFund$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/VariableIncomeFund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/abstracts/BankAccount$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/abstracts/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/interfaces/IncomeAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class5/exercice8/interfaces/NormalAccountInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/Property$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/Rhombus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/Triangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/contracts/I2DShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/classes/io/github/williamtrindade/class6/exercice1/shapes/contracts/I3DShape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/target/test-classes/io/github/williamtrindade/AppTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +167,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -51,7 +204,8 @@
       <option name="presentableId" value="Default" />
       <updated>1597264432290</updated>
       <workItem from="1597264434873" duration="1719000" />
-      <workItem from="1597371654458" duration="2662000" />
+      <workItem from="1597371654458" duration="4773000" />
+      <workItem from="1597376540262" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="class 8">
       <created>1597374264720</created>
@@ -60,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597374264720</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="class 8">
+      <created>1597374405581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597374405581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +230,51 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="class 8" />
     <option name="LAST_COMMIT_MESSAGE" value="class 8" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1809" y="116" width="1024" height="839" key="#Project_Structure" timestamp="1597377113917">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1809" y="116" width="1024" height="839" key="#Project_Structure/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377113917" />
+    <state x="1784" y="197" width="1084" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597377075716">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1784" y="197" width="1084" height="804" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377075716" />
+    <state x="2058" y="356" width="525" height="408" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1597376841976">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2058" y="356" width="525" height="408" key="#com.intellij.ide.util.TreeClassChooserDialog/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597376841976" />
+    <state x="1908" y="111" width="825" height="850" key="CommitChangelistDialog2" timestamp="1597375986847">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1908" y="111" width="825" height="850" key="CommitChangelistDialog2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597375986847" />
+    <state x="2109" y="357" width="432" height="478" key="FileChooserDialogImpl" timestamp="1597377465324">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2109" y="357" width="432" height="478" key="FileChooserDialogImpl/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377465324" />
+    <state width="1878" height="85" key="GridCell.Tab.0.bottom" timestamp="1597377466447">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="85" key="GridCell.Tab.0.bottom/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377466447" />
+    <state width="1878" height="85" key="GridCell.Tab.0.center" timestamp="1597377466446">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="85" key="GridCell.Tab.0.center/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377466446" />
+    <state width="1878" height="85" key="GridCell.Tab.0.left" timestamp="1597377466446">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="85" key="GridCell.Tab.0.left/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377466446" />
+    <state width="1878" height="85" key="GridCell.Tab.0.right" timestamp="1597377466446">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="85" key="GridCell.Tab.0.right/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377466446" />
+    <state x="1809" y="116" width="1024" height="839" key="SettingsEditor" timestamp="1597377453149">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1809" y="116" width="1024" height="839" key="SettingsEditor/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597377453149" />
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1597374407322">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1921" y="275" width="800" height="522" key="Vcs.Push.Dialog.v2/0.312.1366.768/1366.0.1920.1080@1366.0.1920.1080" timestamp="1597374407322" />
   </component>
 </project>

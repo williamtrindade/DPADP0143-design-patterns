@@ -1,6 +1,6 @@
-package io.github.williamtrindade.class3.exercice3;
+package io.github.williamtrindade.unity1.class3.exercice3;
 
-import io.github.williamtrindade.class3.exercice3.abstracts.BankAccount;
+import io.github.williamtrindade.unity1.class3.exercice3.abstracts.BankAccount;
 
 import java.util.Map;
 

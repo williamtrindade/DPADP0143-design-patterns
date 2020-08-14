@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class4.exercice6;
+package io.github.williamtrindade.unity1.class4.exercice6;
 
 import java.io.File;
 import java.net.MalformedURLException;

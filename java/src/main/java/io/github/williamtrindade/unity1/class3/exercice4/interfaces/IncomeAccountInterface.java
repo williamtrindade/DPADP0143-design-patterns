@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class3.exercice4.interfaces;
+package io.github.williamtrindade.unity1.class3.exercice4.interfaces;
 
 public interface IncomeAccountInterface {
     Double getIRTax();

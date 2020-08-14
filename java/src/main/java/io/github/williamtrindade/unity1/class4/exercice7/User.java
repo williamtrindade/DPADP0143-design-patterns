@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class4.exercice7;
+package io.github.williamtrindade.unity1.class4.exercice7;
 
 import java.util.Date;
 

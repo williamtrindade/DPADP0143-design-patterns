@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class4.exercice6;
+package io.github.williamtrindade.unity1.class4.exercice6;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -7,7 +7,6 @@ import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URLClassLoader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Test {

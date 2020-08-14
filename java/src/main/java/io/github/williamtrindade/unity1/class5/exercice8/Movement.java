@@ -1,4 +1,4 @@
-package io.github.williamtrindade.class5.exercice8;
+package io.github.williamtrindade.unity1.class5.exercice8;
 
 public class Movement {
     private final String description;

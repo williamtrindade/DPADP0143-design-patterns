@@ -1,6 +1,6 @@
-package io.github.williamtrindade.class4;
+package io.github.williamtrindade.unity1.class4;
 
-import io.github.williamtrindade.class2.exercice2.Bank;
+import io.github.williamtrindade.unity1.class2.exercise2.Bank;
 
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;

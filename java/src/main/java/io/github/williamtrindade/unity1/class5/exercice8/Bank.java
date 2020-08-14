@@ -1,6 +1,6 @@
-package io.github.williamtrindade.class5.exercice8;
+package io.github.williamtrindade.unity1.class5.exercice8;
 
-import io.github.williamtrindade.class5.exercice8.abstracts.BankAccount;
+import io.github.williamtrindade.unity1.class5.exercice8.abstracts.BankAccount;
 
 import java.util.HashMap;
 
