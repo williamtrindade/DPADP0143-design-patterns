@@ -5,6 +5,6 @@
    
 2. Implementar o exemplo de Composite para o
    cálculo de preço em produtos e caixas de
-   produtos.
+   produtos.  
     2.1 Implementar um caso de teste.  
     2.2 As caixas também deverão ter preço.
