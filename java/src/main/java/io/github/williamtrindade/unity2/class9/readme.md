@@ -32,8 +32,8 @@ https://refactoring.guru/pt-br/design-patterns/proxy
         - O Proxy geralmente gerencia o ciclo de vida de seu objeto de serviço por conta própria, 
         enquanto a composição de Decorators é sempre controlada pelo cliente.
     - ##### Facade:
-        – O Proxy sempre refere-se a um único objeto.
-        – Ainda que desencorajado, o cliente se precisar pode acessar os objetos do subsistema 
+        - O Proxy sempre refere-se a um único objeto.  
+        - Ainda que desencorajado, o cliente se precisar pode acessar os objetos do subsistema 
         diretamente.
     - ##### Chain of Responsibility Pattern:
         - O Proxy refere-se a um único objeto.
