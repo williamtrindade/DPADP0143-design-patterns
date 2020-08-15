@@ -68,7 +68,7 @@ fornecendo uma alternativa substituível que oferece um comportamento padrão
 adequado para não fazer nada.   
 Em suma, um design onde "nada virá do nada".
 
-https://sourcemaking.com/design_patterns/null_object
+https://sourcemaking.com/design_patterns/null_object****
 
 ![](https://sourcemaking.com/files/v2/content/patterns/Null_Object2.png)
 ___
