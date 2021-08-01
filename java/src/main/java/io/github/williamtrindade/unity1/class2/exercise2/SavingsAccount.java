@@ -8,7 +8,7 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
     
     private Double limit;
 
-    SavingsAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    public SavingsAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
