@@ -43,9 +43,7 @@ public class Room implements I3DShape, I2DShape {
 
     @Override
     public Double getVolume() {
-        double volume = 0.0;
-        for (I2DShape shape : this.shapes) volume += shape.getArea() * this.rightFoot;
-        return volume;
+        return this.getArea() * this.rightFoot;
     }
 
     @Override
