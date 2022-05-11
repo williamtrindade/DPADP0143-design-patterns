@@ -1,7 +1,7 @@
-package io.github.williamtrindade.unity1.class5.exercise8.abstracts;
+package io.github.williamtrindade.unity1.class5.exercise8.ex2.abstracts;
 
 
-import io.github.williamtrindade.unity1.class5.exercise8.Movement;
+import io.github.williamtrindade.unity1.class5.exercise8.ex2.Movement;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package io.github.williamtrindade.unity1.class4.exercise7;
+package io.github.williamtrindade.unity1.class5.exercise8.ex7;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.InvocationTargetException;
@@ -14,17 +14,26 @@ public class JsonFramework {
         sb.append("{\n");
         boolean first = true;
         for (Method mmethod : mclass.getMethods()) {
-            if (( mmethod.getName().startsWith("get") || mmethod.getName().startsWith("is") ) && mmethod.getAnnotation(Json.class) != null) {
+            if (
+                    ( mmethod.getName().startsWith("get") || mmethod.getName().startsWith("is") )
+                    && mmethod.getAnnotation(Json.class) != null)
+            {
                 if (!first) {
                     sb.append(",\n");
                 }
                 String name;
 
                 // Att name
-                if ( mmethod.getName().startsWith("get")) {
-                    name = "\t\"" + mmethod.getName().substring(3, 4).toLowerCase() + mmethod.getName().substring(4) +  "\"";
+                if (mmethod.getName().startsWith("get")) {
+                    name = "\t\""
+                            + mmethod.getName().substring(3, 4).toLowerCase()
+                            + mmethod.getName().substring(4)
+                            +  "\"";
                 } else {
-                    name = "\t\"" + mmethod.getName().substring(2, 3).toLowerCase() + mmethod.getName().substring(3) +  "\"" ;
+                    name = "\t\""
+                            + mmethod.getName().substring(2, 3).toLowerCase()
+                            + mmethod.getName().substring(3)
+                            +  "\"" ;
                 }
                 sb.append(name).append(": ");
                 Object returnedObject = mmethod.invoke(object);
@@ -38,7 +47,11 @@ public class JsonFramework {
         return sb.toString();
     }
 
-    private void showValue(Object object, Json annotation, StringBuffer sb) throws IllegalAccessException, InvocationTargetException {
+    private void showValue(
+            Object object,
+            Json annotation,
+            StringBuffer sb
+    ) throws IllegalAccessException, InvocationTargetException {
         if (object == null) {
              sb.append("null");
              return;

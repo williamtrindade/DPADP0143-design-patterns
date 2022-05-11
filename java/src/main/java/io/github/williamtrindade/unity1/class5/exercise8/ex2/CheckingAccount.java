@@ -1,20 +1,19 @@
-package io.github.williamtrindade.unity1.class5.exercise8;
+package io.github.williamtrindade.unity1.class5.exercise8.ex2;
 
-import io.github.williamtrindade.unity1.class5.exercise8.abstracts.BankAccount;
-import io.github.williamtrindade.unity1.class5.exercise8.interfaces.IncomeAccountInterface;
-import io.github.williamtrindade.unity1.class5.exercise8.interfaces.NormalAccountInterface;
+import io.github.williamtrindade.unity1.class5.exercise8.ex2.abstracts.BankAccount;
+import io.github.williamtrindade.unity1.class5.exercise8.ex2.interfaces.NormalAccountInterface;
 
-public class SavingsAccount extends BankAccount implements NormalAccountInterface, IncomeAccountInterface {
-    
+public class CheckingAccount extends BankAccount implements NormalAccountInterface {
+
     private Double limit;
 
-    SavingsAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
+    CheckingAccount(Integer id, Double initialBalance, BankAccount.Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 
     @Override
     public Double getLimit() {
-        return limit;
+        return limit + super.getBalance();
     }
 
     @Override
@@ -23,19 +22,9 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
     }
 
     @Override
-    public Double getIRTax() {
-        double irValue = 0.0;
-        for (Movement movement: super.getMovements()) {
-            irValue += movement.getValue() * 0.05;
-        }
-        return irValue;
-    }
-
-    @Override
     public void addMovement(Movement movement) throws IllegalStateException {
         switch(movement.getType()) {
-            case CREDIT:
-            case FINANCIAL_INCOME:
+            case CREDIT: 
                 this.balance += movement.getValue();
                 break;
             case DEBIT:
@@ -49,5 +38,5 @@ public class SavingsAccount extends BankAccount implements NormalAccountInterfac
         }
         this.movements.add(movement);
     }
-
+    
 }
