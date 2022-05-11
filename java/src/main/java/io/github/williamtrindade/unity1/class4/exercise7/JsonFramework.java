@@ -22,9 +22,9 @@ public class JsonFramework {
 
                 // Att name
                 if ( mmethod.getName().startsWith("get")) {
-                    name = "\"" + mmethod.getName().substring(3, 4).toLowerCase() + mmethod.getName().substring(4) +  "\"";
+                    name = "\t\"" + mmethod.getName().substring(3, 4).toLowerCase() + mmethod.getName().substring(4) +  "\"";
                 } else {
-                    name = "\"" + mmethod.getName().substring(2, 3).toLowerCase() + mmethod.getName().substring(3) +  "\"" ;
+                    name = "\t\"" + mmethod.getName().substring(2, 3).toLowerCase() + mmethod.getName().substring(3) +  "\"" ;
                 }
                 sb.append(name).append(": ");
                 Object returnedObject = mmethod.invoke(object);
