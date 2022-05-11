@@ -14,7 +14,7 @@ public class JsonFramework {
         sb.append("{\n");
         boolean first = true;
         for (Method mmethod : mclass.getMethods()) {
-            if (( mmethod.getName().startsWith("get") || mmethod.getName().startsWith("is") )&& mmethod.getAnnotation(Json.class) != null) {
+            if (( mmethod.getName().startsWith("get") || mmethod.getName().startsWith("is") ) && mmethod.getAnnotation(Json.class) != null) {
                 if (!first) {
                     sb.append(",\n");
                 }
