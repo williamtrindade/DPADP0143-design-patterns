@@ -21,6 +21,7 @@ public class JsonFramework {
                 if (!first) {
                     sb.append(",\n");
                 }
+                sb.append("\t");
                 String name;
 
                 // Att name
@@ -39,7 +40,7 @@ public class JsonFramework {
                 Object returnedObject = mmethod.invoke(object);
 
                 // Value
-                showValue(returnedObject, mmethod.getAnnotation(Json.class), sb);
+                showValue(returnedObject, mmethod.getAnnotation(Json.class), sb, recursiveIndex);
                 first = false;
             }
         }
