@@ -40,7 +40,7 @@ public class JsonFramework {
                 Object returnedObject = mmethod.invoke(object);
 
                 // Value
-                showValue(returnedObject, mmethod.getAnnotation(Json.class), sb, recursiveIndex);
+                showValue(returnedObject, mmethod.getAnnotation(Json.class), sb);
                 first = false;
             }
         }
