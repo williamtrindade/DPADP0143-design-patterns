@@ -5,9 +5,21 @@ import io.github.williamtrindade.unity2.class6.exercise2.b.abstracts.BankAccount
 import java.util.HashMap;
 
 public class Bank implements BankInterface {
-
     private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
+    private static BankInterface INSTANCE;
+    
+    private Bank() { }
+    
+    public static BankInterface getInstance() {
+        synchronized (Bank.class) {
+            if (INSTANCE == null) {
+                INSTANCE = new Bank();
+            }
+        }
+        return INSTANCE;
+    }
+    
     // @Example(name = "Joao")
     @Override
     public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {

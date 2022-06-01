@@ -1,4 +1,4 @@
-## Tópico Aula 7
+## Padrões criacionais / Continuação
 ___
 ### Abstract Factory
 > Fornece uma interface para construir uma familia de objetos.
