@@ -1,4 +1,4 @@
-package io.github.williamtrindade.unity2.class7.c;
+package io.github.williamtrindade.unity2.class7.d;
 
 public class BankAccount implements Prototype<BankAccount> {
 
