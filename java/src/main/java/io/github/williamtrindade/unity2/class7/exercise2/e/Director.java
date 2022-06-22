@@ -1,4 +1,4 @@
-package io.github.williamtrindade.unity2.class7.e;
+package io.github.williamtrindade.unity2.class7.exercise2.e;
 
 public class Director {
     private final Builder builder;

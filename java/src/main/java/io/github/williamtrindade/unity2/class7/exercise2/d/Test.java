@@ -1,4 +1,4 @@
-package io.github.williamtrindade.unity2.class7.d;
+package io.github.williamtrindade.unity2.class7.exercise2.d;
 
 public class Test {
     public static void main(String[] args) {
