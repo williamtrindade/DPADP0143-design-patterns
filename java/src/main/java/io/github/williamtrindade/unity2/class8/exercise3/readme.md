@@ -1,8 +1,11 @@
-### Exercício 1:  
+### Exercício 3:  
+___
 1. Criar um Decorator para o Banco do Exercício 2
    (Introdução) que gere logs em arquivo para cada
    invocação de método.  
    
+___
+
 2. Implementar o exemplo de Composite para o
    cálculo de preço em produtos e caixas de
    produtos.  
