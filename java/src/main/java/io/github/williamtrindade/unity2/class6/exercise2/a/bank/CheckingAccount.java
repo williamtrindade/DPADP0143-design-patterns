@@ -1,13 +1,13 @@
-package io.github.williamtrindade.unity2.class6.exercise2.b;
+package io.github.williamtrindade.unity2.class6.exercise2.a.bank;
 
-import io.github.williamtrindade.unity2.class6.exercise2.b.interfaces.NormalAccountInterface;
-import io.github.williamtrindade.unity2.class6.exercise2.b.abstracts.BankAccount;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.abstracts.BankAccount;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.interfaces.NormalAccountInterface;
 
 public class CheckingAccount extends BankAccount implements NormalAccountInterface {
 
     private Double limit;
 
-    CheckingAccount(Integer id, Double initialBalance, Type type, boolean special) {
+    public CheckingAccount(Integer id, Double initialBalance, Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 

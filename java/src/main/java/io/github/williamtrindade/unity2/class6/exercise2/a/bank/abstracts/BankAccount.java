@@ -1,6 +1,6 @@
-package io.github.williamtrindade.unity2.class6.exercise2.b.abstracts;
+package io.github.williamtrindade.unity2.class6.exercise2.a.bank.abstracts;
 
-import io.github.williamtrindade.unity2.class6.exercise2.b.Movement;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.Movement;
 
 import java.util.ArrayList;
 import java.util.List;

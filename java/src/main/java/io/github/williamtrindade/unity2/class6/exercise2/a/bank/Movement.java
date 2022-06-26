@@ -1,4 +1,4 @@
-package io.github.williamtrindade.unity2.class6.exercise2.a;
+package io.github.williamtrindade.unity2.class6.exercise2.a.bank;
 
 public class Movement {
     private final String description;

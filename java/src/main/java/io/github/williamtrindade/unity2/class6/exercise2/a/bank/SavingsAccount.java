@@ -1,14 +1,14 @@
-package io.github.williamtrindade.unity2.class6.exercise2.a;
+package io.github.williamtrindade.unity2.class6.exercise2.a.bank;
 
-import io.github.williamtrindade.unity2.class6.exercise2.a.abstracts.BankAccount;
-import io.github.williamtrindade.unity2.class6.exercise2.a.interfaces.IncomeAccountInterface;
-import io.github.williamtrindade.unity2.class6.exercise2.a.interfaces.NormalAccountInterface;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.abstracts.BankAccount;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.interfaces.IncomeAccountInterface;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.interfaces.NormalAccountInterface;
 
 public class SavingsAccount extends BankAccount implements NormalAccountInterface, IncomeAccountInterface {
     
     private Double limit;
 
-    SavingsAccount(Integer id, Double initialBalance, Type type, boolean special) {
+    public SavingsAccount(Integer id, Double initialBalance, Type type, boolean special) {
         super(id, initialBalance, type, special);
     }
 

@@ -1,36 +1,24 @@
-package io.github.williamtrindade.unity2.class6.exercise2.a;
+package io.github.williamtrindade.unity2.class6.exercise2.a.bank;
 
-import io.github.williamtrindade.unity2.class6.exercise2.a.abstracts.BankAccount;
+import io.github.williamtrindade.unity2.class6.exercise2.a.bank.abstracts.BankAccount;
 
 import java.util.HashMap;
 
-public class Bank implements BankInterface {
+public class Bank {
 
     private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
     // @Example(name = "Joao")
-    @Override
-    public boolean createAccount(Integer number, Double initialBalance, BankAccount.Type type) {
-        BankAccount bankAccount = this.getAccount(number);
-        if (type == BankAccount.Type.CHECKING_ACCOUNT) {
-            bankAccount = new CheckingAccount(number, initialBalance, type, false);
-        } else if (type == BankAccount.Type.SAVINGS_ACCOUNT) {
-            bankAccount = new SavingsAccount(number, initialBalance, type, false);
-        } else if (type == BankAccount.Type.FIXED_INCOME_FUND) {
-            bankAccount = new FixedIncomeFund(number, initialBalance, type, false);
-        } else if (type == BankAccount.Type.VARIABLE_INCOME_FUND) {
-            bankAccount = new VariableIncomeFund(number, initialBalance, type, false);
-        }
+    public boolean insertAccount(BankAccount account) {
         try {
-            bankAccount.addMovement(new Movement("Initial deposit", initialBalance, Movement.Type.CREDIT));
+            account.addMovement(new Movement("Initial deposit", 0.0, Movement.Type.CREDIT));
         } catch (Exception e) {
             return false;
         }
-        this.accounts.put(bankAccount.getId(), bankAccount);
+        this.accounts.put(account.getId(), account);
         return true;
     }
 
-    @Override
     public BankAccount getAccount(Integer number) throws IllegalArgumentException {
         BankAccount bankAccount = this.accounts.get(number);
         if (bankAccount == null) {
@@ -39,12 +27,10 @@ public class Bank implements BankInterface {
         return bankAccount;
     }
 
-    @Override
     public void deleteAccount(Integer number) {
         this.accounts.remove(number);
     }
 
-    @Override
     public void depositInAccount(Integer number, Double value) {
         BankAccount bankAccount = this.getAccount(number);
         try {
@@ -54,7 +40,6 @@ public class Bank implements BankInterface {
         }
     }
 
-    @Override
     public void withdraw(Integer number, Double value) {
         BankAccount bankAccount = this.getAccount(number);
         try {
@@ -72,7 +57,6 @@ public class Bank implements BankInterface {
     //     return null;
     // }
 
-    @Override
     public void transferBetweenAccounts(Integer origin, Integer target, Double value) {
         BankAccount originBankAccount = this.getAccount(origin);
         BankAccount targetBankAccount = this.getAccount(target);
