@@ -79,4 +79,8 @@ public class Bank implements BankInterface {
             e.printStackTrace();
         }
     }
+
+    public HashMap<Integer, BankAccount> getAccounts() {
+        return accounts;
+    }
 }

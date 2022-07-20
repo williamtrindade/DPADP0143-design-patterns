@@ -6,10 +6,12 @@ import io.github.williamtrindade.unity2.class8.exercise3.ex01.bank.interfaces.Ba
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.util.HashMap;
 
 class BankLogDecorator implements BankInterface {
     private BankInterface decoratedBank;
     private Writer writerLog;
+
 
     public BankLogDecorator(BankInterface bank, String fileLogName) throws IOException {
         this.decoratedBank = bank;
@@ -44,5 +46,10 @@ class BankLogDecorator implements BankInterface {
     @Override
     public void transferBetweenAccounts(Integer origin, Integer target, Double value) {
         decoratedBank.transferBetweenAccounts(origin, target, value);
+    }
+
+    @Override
+    public HashMap<Integer, BankAccount> getAccounts() {
+        return decoratedBank.getAccounts();
     }
 }
