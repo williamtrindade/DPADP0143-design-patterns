@@ -1,11 +1,11 @@
-package io.github.williamtrindade.unity2.class8.exercise3.ex01;
+package io.github.williamtrindade.unity2.class8.exercise3.ex01.bank;
 
-import io.github.williamtrindade.unity2.class8.exercise3.ex01.bank.*;
 import io.github.williamtrindade.unity2.class8.exercise3.ex01.bank.abstracts.BankAccount;
+import io.github.williamtrindade.unity2.class8.exercise3.ex01.bank.interfaces.BankInterface;
 
 import java.util.HashMap;
 
-public class Bank  implements BankComponent {
+public class Bank implements BankInterface {
 
     private final HashMap<Integer, BankAccount> accounts = new HashMap<>();
 
@@ -78,10 +78,5 @@ public class Bank  implements BankComponent {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
-    @Override
-    public String registerLog(String operation) {
-        return null;
     }
 }
