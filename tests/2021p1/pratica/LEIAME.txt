@@ -1,0 +1,37 @@
+Enunciado:
+
+O aluno dever? desenvolver uma implementa??o da interface br.ufsm.csi.pp.PersistenceLayer que dado
+um conjunto de classes gera um comando CREATE TABLE para cada classe. As classes dever?o estar
+devidamente anotadas com as seguintes anota??es:
+
+    @Tabela(nome = "nome_da_tabela"):
+        Anota??o para a classe com a identifica??o do nome da tabela.
+
+    @ChavePrimaria
+            Anota??o para identificar o getter da propriedade que representa a chave prim?ria da classe/tabela.
+
+    @Coluna(nome = "nome_da_coluna", tipo = "tipo_coluna_no_bd", size = "tamanho", unique = "true|false"):
+        Anota??o para cada getter da classe que representa um atributo que deve ser persistido no SGBD.
+        Atributos:
+            nome: Nome da coluna a ser criada na tabela.
+            tipo: Tipo da coluna a ser criada. Deve ser um tipo nativo do SGBD.
+            size: Tamanho da coluna passado no tipo entre par?nteses. Usado apenas nos tipos que suportam tamanho.
+                Ex. varchar(255), int(11).
+            unique: Informa se a coluna deve ser criada como unique.
+
+
+Ap?s a implementa??o do PersistenceLayer, o aluno dever? alterar a classe de teste Main, colocando uma inst?ncia
+da sua classe para teste com a classe "ClasseExemplo". Ap?s o teste dever? imprimir na sa?da padr?o um
+comando paracido com:
+    CREATE TABLE CLASSE_EXEMPLO (ID bigint, CODIGO bigint, ATRIBUTO1 varchar(200),
+    ATRIBUTO2 varchar(10), primary key(ID));
+
+Al?m, disso sua implementa??o de PersistenceLayer dever? ser um SINGLETON.
+
+
+Avalia??o:
+
+1) Gera??o do comando CREATE TABLE [3,0]
+2) Detalhes do CREATE TABLE: size, unique e primary key [1,5]
+3) Implementa??o do SINGLETON [1,0]
+4) Organiza??o e Padroniza??o do c?digo (code conventions) [0,5]
